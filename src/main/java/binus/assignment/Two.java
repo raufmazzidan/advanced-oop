@@ -7,7 +7,6 @@ import java.util.Scanner;
  * @author raufmazzidan
  */
 public class Two {
-
     public static void main(String[] args) {
         int i = 2, res = 0, n;
         
