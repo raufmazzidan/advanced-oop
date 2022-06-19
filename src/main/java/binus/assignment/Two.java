@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Two {
 
     public static void main(String[] args) {
-        int i = 2, chk, count = 0, res = 0, n;
+        int i = 2, res = 0, n;
         
         Scanner scan = new Scanner(System.in);
         System.out.print("Masukkan N : ");
