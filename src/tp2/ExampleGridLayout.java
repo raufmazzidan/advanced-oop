@@ -29,5 +29,4 @@ public class ExampleGridLayout {
   public static void main(String argvs[]) {
     new ExampleGridLayout();
   }
-
 }

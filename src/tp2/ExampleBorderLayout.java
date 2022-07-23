@@ -27,5 +27,4 @@ public class ExampleBorderLayout {
   public static void main(String argvs[]) {
     new ExampleBorderLayout();
   }
-
 }

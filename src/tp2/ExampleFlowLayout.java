@@ -27,5 +27,4 @@ public class ExampleFlowLayout {
   public static void main(String argvs[]) {
     new ExampleFlowLayout();
   }
-
 }
