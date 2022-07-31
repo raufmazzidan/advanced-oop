@@ -12,9 +12,9 @@ public class ButtonAndCheckbox extends JFrame implements ActionListener {
   JCheckBox checkbox3;
 
   ButtonAndCheckbox() {
-    checkbox1 = new JCheckBox("Option 1");   
-    checkbox2 = new JCheckBox("Option 2");  
-    checkbox3 = new JCheckBox("Option 3");  
+    checkbox1 = new JCheckBox("Option 1");
+    checkbox2 = new JCheckBox("Option 2");
+    checkbox3 = new JCheckBox("Option 3");
     button = new JButton("Submit");
 
     panel.setLayout(new FlowLayout(FlowLayout.CENTER, 8, 24));
@@ -32,17 +32,20 @@ public class ButtonAndCheckbox extends JFrame implements ActionListener {
     String selected = "";
 
     if (checkbox1.isSelected()) {
-      selected += "Option 1, ";;
+      selected += "Option 1, ";
+      ;
     }
 
     if (checkbox2.isSelected()) {
-      selected += "Option 2, ";;
+      selected += "Option 2, ";
+      ;
     }
 
     if (checkbox3.isSelected()) {
-      selected += "Option 3, ";;
+      selected += "Option 3, ";
+      ;
     }
-      JOptionPane.showMessageDialog(null, "Selected = " + selected);
+    JOptionPane.showMessageDialog(null, "Selected = " + selected);
 
   }
 
