@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch ProductFrameRunner",
+      "request": "launch",
+      "mainClass": "tk4.ProductFrameRunner",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch InsertFrame",
+      "request": "launch",
+      "mainClass": "tk4.InsertFrame",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch RegistrationForm",
+      "request": "launch",
+      "mainClass": "tk4.RegistrationForm",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch ProductFrame",
+      "request": "launch",
+      "mainClass": "tk4.ProductFrame",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
       "name": "Launch TableExample",
       "request": "launch",
       "mainClass": "tk4.TableExample",

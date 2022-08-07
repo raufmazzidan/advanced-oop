@@ -73,7 +73,7 @@ public final class ProductFrame extends JFrame {
 
   private void createForm() {
     this.setTitle("Product Form");
-    this.setSize(400, 200);
+    this.setSize(420, 300);
     this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     this.setLocationRelativeTo(null);
   }
