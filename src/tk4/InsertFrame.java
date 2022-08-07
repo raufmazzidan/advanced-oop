@@ -35,7 +35,7 @@ public class InsertFrame extends JFrame {
 
     formPanel.setLayout(new GridLayout(0, 2, 16, 16));
 
-    nameLabel = new JLabel("Nama Pengguna");
+    nameLabel = new JLabel("Name");
     nameField = new JTextField();
     formPanel.add(nameLabel);
     formPanel.add(nameField);
