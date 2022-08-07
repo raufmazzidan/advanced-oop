@@ -6,7 +6,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.event.*;
 import java.util.Arrays;
 
-public class RegistrationForm extends JFrame{
+public class RegistrationForm extends JFrame {
   JPanel panel = new JPanel();
 
   JLabel userNameLabel;
@@ -31,8 +31,7 @@ public class RegistrationForm extends JFrame{
   JButton buttonSubmit;
 
   String dateOption[] = { "", "1", "2", "3", "4", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17",
-      "18",
-      "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" };
+      "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" };
   String monthOption[] = { "", "1", "2", "3", "4", "6", "7", "8", "9", "10", "11", "12" };
   String yearOption[] = { "", "1995", "1996", "1997", "1998", "1999", "2001", "2002", "2003", "2004", "2005" };
 
@@ -97,11 +96,10 @@ public class RegistrationForm extends JFrame{
       }
     });
 
-
     buttonSubmit.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
         String errorMessage = "";
-  
+
         if (userNameField.getText().length() == 0) {
           errorMessage = "Nama Pengguna Harus Diisi!";
         } else if (passwordField.getPassword().length == 0) {

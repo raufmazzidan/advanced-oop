@@ -7,7 +7,7 @@ import java.awt.event.*;
 
 public class InsertFrame extends JFrame {
   private Connect conn = new Connect();
-  
+
   JPanel panel = new JPanel();
   JPanel formPanel = new JPanel();
 
@@ -76,10 +76,13 @@ public class InsertFrame extends JFrame {
 
         if (errorMessage.equals("")) {
           try {
-            conn.executeUpdate("INSERT INTO `product` (`ID`, `Name`, `Type`, `Price`, `Stock`) VALUES (NULL, '" + nameField.getText()+ "', '" + typeField.getSelectedItem() + "', '" + (Integer) priceField.getValue() + "', '" + (Integer) stockField.getValue() + "');");
-              // JOptionPane.showMessageDialog(null, "Sukses Insert", "Informasi", JOptionPane.INFORMATION_MESSAGE);
-              new ProductFrame();
-            } catch (Exception ex) {
+            conn.executeUpdate("INSERT INTO `product` (`ID`, `Name`, `Type`, `Price`, `Stock`) VALUES (NULL, '"
+                + nameField.getText() + "', '" + typeField.getSelectedItem() + "', '" + (Integer) priceField.getValue()
+                + "', '" + (Integer) stockField.getValue() + "');");
+            // JOptionPane.showMessageDialog(null, "Sukses Insert", "Informasi",
+            // JOptionPane.INFORMATION_MESSAGE);
+            new ProductFrame();
+          } catch (Exception ex) {
             System.out.println(ex);
           }
         } else {

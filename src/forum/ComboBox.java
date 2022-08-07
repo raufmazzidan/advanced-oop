@@ -7,11 +7,11 @@ import java.awt.event.*;
 public class ComboBox extends JFrame implements ActionListener {
   JPanel panel = new JPanel();
   JButton button;
-  JComboBox comboBox;
+  JComboBox<String> comboBox;
 
   ComboBox() {
     String opt[] = { "Option 1", "Option 2", "Option 3", "Option 4", "Option 5" };
-    comboBox = new JComboBox(opt);
+    comboBox = new JComboBox<String>(opt);
     button = new JButton("Submit");
 
     panel.setLayout(new FlowLayout(FlowLayout.CENTER, 8, 24));

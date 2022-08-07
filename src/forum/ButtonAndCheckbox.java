@@ -33,17 +33,14 @@ public class ButtonAndCheckbox extends JFrame implements ActionListener {
 
     if (checkbox1.isSelected()) {
       selected += "Option 1, ";
-      ;
     }
 
     if (checkbox2.isSelected()) {
       selected += "Option 2, ";
-      ;
     }
 
     if (checkbox3.isSelected()) {
       selected += "Option 3, ";
-      ;
     }
     JOptionPane.showMessageDialog(null, "Selected = " + selected);
 

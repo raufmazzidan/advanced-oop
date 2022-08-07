@@ -34,7 +34,7 @@ public final class ProductFrame extends JFrame {
     table.setModel(dtm);
 
     refreshData();
-    
+
     for (int i = 0; i < headerTable.size(); i++) {
       dtm.addColumn(headerTable.get(i));
     }

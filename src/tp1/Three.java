@@ -8,17 +8,17 @@ import java.util.Scanner;
  */
 public class Three {
 
-    public static void main(String[] args) {
-        int num;
+  public static void main(String[] args) {
+    int num;
 
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Input : ");
+    Scanner scan = new Scanner(System.in);
+    System.out.print("Input : ");
 
-        try {
-            num = scan.nextInt();
-            System.out.println("Number : " + num);
-        } catch (Exception e) {
-            System.err.println("Invalid Number");
-        }
+    try {
+      num = scan.nextInt();
+      System.out.println("Number : " + num);
+    } catch (Exception e) {
+      System.err.println("Invalid Number");
     }
+  }
 }
