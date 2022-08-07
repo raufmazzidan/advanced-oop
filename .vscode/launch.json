@@ -1,0 +1,133 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch TableExample",
+      "request": "launch",
+      "mainClass": "tk4.TableExample",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch ButtonAndCheckbox",
+      "request": "launch",
+      "mainClass": "forum.ButtonAndCheckbox",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch ComboBox",
+      "request": "launch",
+      "mainClass": "forum.ComboBox",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch MoneyChanger",
+      "request": "launch",
+      "mainClass": "tk1.MoneyChanger",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch FamilyRestaurant",
+      "request": "launch",
+      "mainClass": "tk2.FamilyRestaurant",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch RegistrationForm",
+      "request": "launch",
+      "mainClass": "tk3.RegistrationForm",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "tk4.App",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch Four",
+      "request": "launch",
+      "mainClass": "tp1.Four",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch One",
+      "request": "launch",
+      "mainClass": "tp1.One",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch Three",
+      "request": "launch",
+      "mainClass": "tp1.Three",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch Two",
+      "request": "launch",
+      "mainClass": "tp1.Two",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExampleBorderLayout",
+      "request": "launch",
+      "mainClass": "tp2.ExampleBorderLayout",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExampleFlowLayout",
+      "request": "launch",
+      "mainClass": "tp2.ExampleFlowLayout",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExampleGridLayout",
+      "request": "launch",
+      "mainClass": "tp2.ExampleGridLayout",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExampleKeyListener",
+      "request": "launch",
+      "mainClass": "tp2.ExampleKeyListener",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch ExampleMouseListener",
+      "request": "launch",
+      "mainClass": "tp2.ExampleMouseListener",
+      "projectName": "assignment_2696d406"
+    },
+    {
+      "type": "java",
+      "name": "Launch FormValidation",
+      "request": "launch",
+      "mainClass": "tp2.FormValidation",
+      "projectName": "assignment_2696d406"
+    }
+  ]
+}

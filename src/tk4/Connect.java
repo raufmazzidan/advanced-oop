@@ -8,9 +8,8 @@ public class Connect {
 
 	public Connect() {
 		try {
-			Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-			con = DriverManager.getConnection("jdbc:odbc:driver={Microsoft Access Driver (*.mdb, *.accdb)}; DBQ="
-					+ System.getProperty("user.dir") + "/shop.mdb");
+			Class.forName("com.mysql.jdbc.Driver");
+			con = DriverManager.getConnection("jdbc:mysql://localhost/tk4", "root", "");
 			st = con.createStatement(1004, 1008);
 			System.out.println("Connection Successful");
 		} catch (Exception e) {
